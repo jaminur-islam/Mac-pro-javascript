@@ -63,7 +63,7 @@ document.getElementById('promo-code-btn').addEventListener('click', function () 
   // input promo and get discount
   const promoInput = document.getElementById('promo-code-input')
   const promoCode = promoInput.value;
-  if (promoCode == 'stevekaku') {
+  if (promoCode.toLowerCase() == 'stevekaku'.toLowerCase()) {
       promoTotal.innerText = total * (100 - 20) / 100;
     promoInput.value = '';
 

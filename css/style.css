@@ -21,3 +21,6 @@ button:hover {
   padding: 10px 30px;
 }
 
+#promocode-success {
+  display: none;
+}
