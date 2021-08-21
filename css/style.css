@@ -7,7 +7,8 @@
 }
 
 .customize-btn{
-  padding: 2px 5px;
+  padding: 8px;
+  margin-left: 10px;
 }
 
 button:hover {
@@ -20,6 +21,3 @@ button:hover {
   padding: 10px 30px;
 }
 
-#promocode-success {
-  display: none;
-}
