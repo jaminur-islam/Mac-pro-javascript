@@ -1,0 +1,26 @@
+
+.hr{
+  background-color: #333;
+  border: none;
+  opacity: 1;
+  width: 460px;
+}
+
+.customize-btn{
+  padding: 8px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #0A5ED7;
+  transition: .4s;
+  color: rgb(245, 237, 237);
+}
+.container {
+  background-color: rgb(250, 241, 240);
+  padding: 10px 30px;
+}
+
+#promocode-success {
+  display: none;
+}
